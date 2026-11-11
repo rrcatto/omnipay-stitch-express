@@ -1,0 +1,47 @@
+{
+    "name": "rrcatto/omnipay-stitch-express",
+    "type": "library",
+    "description": "Stitch Express gateway for the Omnipay payment processing library: payment links, payments, refunds and signed payment.paid webhooks",
+    "keywords": ["gateway", "merchant", "omnipay", "pay", "payment", "purchase", "stitch", "stitch express", "south africa", "zar"],
+    "homepage": "https://github.com/rrcatto/omnipay-stitch-express",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard Catto",
+            "role": "Project creator and maintainer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "omnipay/common": "^3.5",
+        "php-http/guzzle7-adapter": "^1.1"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.9",
+        "omnipay/tests": "^4.2",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\StitchExpress\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnipay\\StitchExpress\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "analyse": "phpstan analyse --no-progress",
+        "check": ["@test", "@analyse"]
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "minimum-stability": "stable"
+}

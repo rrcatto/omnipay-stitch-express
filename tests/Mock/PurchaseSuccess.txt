@@ -1,0 +1,4 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{"success":true,"data":{"payment":{"id":"pl_7xQ2","paymentId":null,"amount":120000,"status":"PENDING","paidAt":null,"createdAt":"2026-11-11T10:00:00.000Z","updatedAt":"2026-11-11T10:00:00.000Z","payerName":"Thandi Mokoena","payerEmailAddress":"thandi@example.com","payerPhoneNumber":null,"link":"https://express.stitch.money/DjbyqE","merchantReference":"CL-1001","expireAt":"2026-11-11T11:00:00.000Z","deliveryDetails":null}}}

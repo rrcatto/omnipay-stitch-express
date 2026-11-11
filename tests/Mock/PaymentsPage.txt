@@ -1,0 +1,4 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{"success":true,"data":{"payments":[{"id":"pay_9kL1","amount":120000,"paidAt":"2026-11-11T10:05:00.000Z","status":"SETTLED","type":"LINK","merchantReference":"CL-1001","fee":{"id":"f1","type":"PAYMENT_LINKS","amount":3480,"paymentId":"pay_9kL1"},"cardDetail":{"last4":"4242"}}]},"pagination":{"nextCursor":null,"hasMore":false}}

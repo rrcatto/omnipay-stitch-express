@@ -1,0 +1,4 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{"success":true,"data":{"payments":[{"id":"pl_7xQ2","paymentId":"pay_9kL1","amount":120000,"status":"PAID","paidAt":"2026-11-11T10:05:00.000Z","createdAt":"2026-11-11T10:00:00.000Z","payerName":"Thandi Mokoena","link":"https://express.stitch.money/pay/pl_7xQ2","merchantReference":"CL-1001","expireAt":"2026-11-11T11:00:00.000Z"},{"id":"pl_8yR3","paymentId":null,"amount":5000,"status":"EXPIRED","paidAt":null,"createdAt":"2026-11-10T09:00:00.000Z","payerName":"Ann Lee","link":"https://express.stitch.money/pay/pl_8yR3","merchantReference":"CL-1000","expireAt":"2026-11-10T10:00:00.000Z"}]},"pagination":{"nextCursor":"eyJvZmZzZXQiOjJ9","hasMore":true}}

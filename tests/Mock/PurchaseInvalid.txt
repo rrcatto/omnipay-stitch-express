@@ -1,0 +1,4 @@
+HTTP/1.1 400 Bad Request
+Content-Type: application/json; charset=utf-8
+
+{"success":false,"generalErrors":[],"fieldErrors":{"payerName":["must be between 3 and 40 characters"],"amount":["must be at least 100"]}}

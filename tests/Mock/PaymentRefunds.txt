@@ -1,0 +1,4 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{"success":true,"data":{"refund":[{"id":"6f1c2b9e-1d2a-4f3b-9c8d-7e6f5a4b3c2d","amount":"50000","status":"PROCESSED","paymentId":"pay_9kL1","createdAt":"2026-11-12T08:00:00.000Z"}]}}

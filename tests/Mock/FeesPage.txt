@@ -1,0 +1,4 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{"success":true,"data":{"fees":[{"id":"f1","type":"PAYMENT_LINKS","amount":3480,"paymentId":"pay_9kL1","createdAt":"2026-11-12T00:10:00.000Z","statementId":"s1"}]},"pagination":{"nextCursor":null,"hasMore":false}}
