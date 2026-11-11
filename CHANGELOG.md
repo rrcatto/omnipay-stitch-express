@@ -2,7 +2,7 @@
 
 What each version of omnipay-stitch-express brought, newest first.
 
-## Unreleased
+## 1.0.0 (2026-11-11)
 
 - Added: the Stitch Express gateway (`Omnipay\StitchExpress\Gateway`): `purchase()` makes a payment link and redirects the
   customer to it, with the return address as `redirect_url`; `completePurchase()` and `fetchTransaction()` ask where a link
